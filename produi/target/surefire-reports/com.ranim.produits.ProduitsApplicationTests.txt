@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.wissem.produits.ProduitsApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 7.611 s <<< FAILURE! - in com.wissem.produits.ProduitsApplicationTests
+testFindProduit  Time elapsed: 0.019 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.wissem.produits.ProduitsApplicationTests.testFindProduit(ProduitsApplicationTests.java:32)
+
+testUpdateProduit  Time elapsed: 0.005 s  <<< ERROR!
+java.util.NoSuchElementException: No value present
+	at com.wissem.produits.ProduitsApplicationTests.testUpdateProduit(ProduitsApplicationTests.java:38)
+
+testDeleteProduit  Time elapsed: 0.01 s  <<< ERROR!
+org.springframework.dao.EmptyResultDataAccessException: No class com.wissem.produits.entities.Produit entity with id 1 exists!
+	at com.wissem.produits.ProduitsApplicationTests.testDeleteProduit(ProduitsApplicationTests.java:44)
+
